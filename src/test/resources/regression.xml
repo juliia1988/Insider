@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Use tests automation">
+
+    <test name="Regression testing">
+        <classes>
+            <class name="tests.ui.tests.LoginSelenideTest"/>
+            <class name="tests.ui.tests.ProjectCreateTest"/>
+            <class name="tests.ui.tests.End2EndTest"/>
+        </classes>
+
+    </test>
+</suite>
