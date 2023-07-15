@@ -5,20 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a01e3a9-94a3-46bd-9225-dd7f93e5c31c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ui/pageobjects/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ui/pageobjects/LogInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ui/pageobjects/ProjectPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ui/pageobjects/TaskPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ui/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ui/tests/End2EndTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ui/tests/LoginSelenideTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ui/tests/ProjectCreateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/utils/EnvProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/env.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/regression.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/enums/UserRoles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/methods/Boards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/methods/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/models/BoardInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/models/ColumnDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/models/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/models/TaskDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/models/args/BodyArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/models/args/projects/ProjectId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/models/args/users/CreateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/models/args/users/UserId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/steps/BaseApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/steps/BoardApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/steps/UserApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/tests/BoardApiTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/tests/CreateUserTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/tests/DeleteUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/jsonSchemeGetProject.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ui/pageobjects/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/pageobjects/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ui/pageobjects/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/pageobjects/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ui/pageobjects/ProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/pageobjects/ProjectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ui/pageobjects/TaskPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/pageobjects/TaskPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ui/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ui/tests/End2EndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/tests/End2EndTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ui/tests/LoginSelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/tests/LoginSelenideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ui/tests/ProjectCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/tests/ProjectCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/utils/EnvProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/EnvProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/env.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/regression.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +81,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="tests.api.steps" />
       <recent name="tests.ui.pageobjects" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java/tests/api" />
+      <recent name="$PROJECT_DIR$/src/test/java/tests/api/tests" />
       <recent name="$PROJECT_DIR$/src/test/java/tests" />
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
@@ -81,18 +100,53 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ProjectSummaryAlertTest.testForUserWithoutProject">
-    <configuration name="End2EndTest.testCreateTaskWithConnemt" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.End2EndTest">
+    <configuration name="DeleteUserTest.createUserApi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SokolovaYuliia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.ui.tests.*" />
+          <option name="PATTERN" value="api.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.ui.tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ui.tests.End2EndTest" />
-      <option name="METHOD_NAME" value="testCreateTaskWithConnemt" />
+      <option name="PACKAGE_NAME" value="api.tests" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.DeleteUserTest" />
+      <option name="METHOD_NAME" value="createUserApi" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="End2EndTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SokolovaYuliia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="ui.tests.End2EndTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="End2EndTest.testEndToEndUiFlow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SokolovaYuliia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="ui.tests.End2EndTest" />
+      <option name="METHOD_NAME" value="testEndToEndUiFlow" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,12 +158,12 @@
       <module name="SokolovaYuliia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.ui.tests.*" />
+          <option name="PATTERN" value="ui.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.ui.tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ui.tests.LoginSelenideTest" />
+      <option name="PACKAGE_NAME" value="ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="ui.tests.LoginSelenideTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -117,54 +171,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectCreateTest.testCreateProject" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProjectCreateTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SokolovaYuliia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.ui.tests.*" />
+          <option name="PATTERN" value="ui.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.ui.tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ui.tests.ProjectCreateTest" />
-      <option name="METHOD_NAME" value="testCreateProject" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProjectSummaryAlertTest.testForUserWithoutProject" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SokolovaYuliia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.ui.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.ui.tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ui.tests.ProjectSummaryAlertTest" />
-      <option name="METHOD_NAME" value="testForUserWithoutProject" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProjectSummaryTitleTest.testForUserWithProject" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SokolovaYuliia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.ui.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.ui.tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ui.tests.ProjectSummaryTitleTest" />
-      <option name="METHOD_NAME" value="testForUserWithProject" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="ui.tests.ProjectCreateTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -173,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ProjectSummaryAlertTest.testForUserWithoutProject" />
-        <item itemvalue="TestNG.ProjectCreateTest.testCreateProject" />
-        <item itemvalue="TestNG.End2EndTest.testCreateTaskWithConnemt" />
-        <item itemvalue="TestNG.ProjectSummaryTitleTest.testForUserWithProject" />
+        <item itemvalue="TestNG.End2EndTest" />
+        <item itemvalue="TestNG.End2EndTest.testEndToEndUiFlow" />
+        <item itemvalue="TestNG.ProjectCreateTest" />
         <item itemvalue="TestNG.LoginSelenideTest" />
+        <item itemvalue="TestNG.DeleteUserTest.createUserApi" />
       </list>
     </recent_temporary>
   </component>

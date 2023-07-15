@@ -1,14 +1,14 @@
-package tests.ui.tests;
+package ui.tests;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Description;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.annotations.Test;
-import tests.ui.pageobjects.DashboardPage;
-import tests.ui.pageobjects.LogInPage;
-import tests.ui.pageobjects.ProjectPage;
-import tests.ui.pageobjects.TaskPage;
+import ui.pageobjects.DashboardPage;
+import ui.pageobjects.LogInPage;
+import ui.pageobjects.ProjectPage;
+import ui.pageobjects.TaskPage;
 
 public class End2EndTest extends BaseTest {
 

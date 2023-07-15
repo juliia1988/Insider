@@ -3,9 +3,10 @@
 
     <test name="Regression testing">
         <classes>
-            <class name="tests.ui.tests.LoginSelenideTest"/>
-            <class name="tests.ui.tests.ProjectCreateTest"/>
-            <class name="tests.ui.tests.End2EndTest"/>
+            <class name="ui.tests.LoginSelenideTest"/>
+            <class name="ui.tests.ProjectCreateTest"/>
+            <class name="ui.tests.End2EndTest"/>
+
         </classes>
 
     </test>

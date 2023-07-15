@@ -1,4 +1,4 @@
-package tests.ui.pageobjects;
+package ui.pageobjects;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
