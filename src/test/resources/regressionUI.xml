@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Use tests automation">
+<suite name="Tests automation for UI">
 
-    <test name="Regression testing">
+    <test name="Regression testing UI">
         <classes>
             <class name="ui.tests.LoginSelenideTest"/>
             <class name="ui.tests.ProjectCreateTest"/>
@@ -9,6 +9,5 @@
             <class name="ui.tests.TaskDeleteTest"/>
             <class name="ui.tests.CommentAddTest"/>
         </classes>
-
     </test>
 </suite>
