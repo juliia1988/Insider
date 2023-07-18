@@ -26,14 +26,14 @@ public class ProjectCreateTest extends BaseTest {
     }
 
     @Test
-    @Description("Check that project Summary exist if create new Projects")
+    @Description("Check Project creation through the UI: Check that project Summary exist if create new Projects")
     public void testCreateProject() {
         new LogInPage()
                 .logIn(USERNAME, PASSWORD);
 
         String formId = RandomStringUtils.randomAlphabetic(10);
         SelenideElement projectSummmaryText = new DashboardPage()
-                .CreateProject("Project 2", formId).getProjectSummary();
+                .createProject("Project 2", formId).getProjectSummary();
 
         projectSummmaryText.shouldBe(Condition.visible);
         projectSummmaryText.shouldHave(Condition.text("Summary")).getText();

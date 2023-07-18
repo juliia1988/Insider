@@ -1,13 +1,10 @@
 package api.steps;
 
-import api.enums.UserRoles;
 import api.methods.Projects;
-import api.methods.Users;
 import api.models.Result;
 import api.models.args.BodyArgs;
 import api.models.args.projects.ProjectId;
 import api.models.args.users.CreateUser;
-import api.models.args.users.UserId;
 import io.restassured.response.Response;
 
 import static utils.EnvProperties.API_TOKEN;

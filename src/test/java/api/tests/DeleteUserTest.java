@@ -8,6 +8,6 @@ public class DeleteUserTest {
     @Test
     public void deleteUserApi() {
         UserApiSteps userApiStep = new UserApiSteps();
-        String deleteUserById = String.valueOf(userApiStep.deleteUser("14"));
+        String deleteUserById = String.valueOf(userApiStep.deleteUser("16"));
     }
 }

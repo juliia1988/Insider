@@ -26,7 +26,7 @@ public class  DashboardPage {
     }
 
     @Step("User сreate New Project")
-    public ProjectPage CreateProject(String formName, String formIdentifier) {
+    public ProjectPage createProject(String formName, String formIdentifier) {
         getProjectCreatetLink().click();
         getFormNameField().sendKeys(formName);
         getFormIdentifierField().sendKeys(formIdentifier);

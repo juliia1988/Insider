@@ -23,7 +23,7 @@ public class End2EndTest extends BaseTest {
 
         String formId = RandomStringUtils.randomAlphabetic(10);
         SelenideElement commentText = new DashboardPage()
-                .CreateProject("Project 6", formId).getComment();
+                .createProject("Project 6", formId).getComment();
 
         String randomTaskName = RandomStringUtils.randomAlphabetic(10);
         new ProjectPage()

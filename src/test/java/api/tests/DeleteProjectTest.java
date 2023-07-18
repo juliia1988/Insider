@@ -8,8 +8,8 @@ public class DeleteProjectTest {
 
     @Test
     public void deleteProjectApi() {
-        ProjectApiSteps projectApiStepsApiStep = new ProjectApiSteps();
-        String deleteProjectById = String.valueOf(projectApiStepsApiStep.deleteProject("48"));
+        ProjectApiSteps projectApiSteps = new ProjectApiSteps();
+        String deleteProjectById = String.valueOf(projectApiSteps.deleteProject("70"));
     }
 
 }

@@ -5,17 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a01e3a9-94a3-46bd-9225-dd7f93e5c31c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/methods/Projects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/models/args/projects/CreateProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/steps/ProjectApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/steps/TaskApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/tests/CreateProjectTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/tests/DeleteProjectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/tests/TaskCreateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/methods/Tasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/models/args/projects/CreateTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/models/args/projects/LinkProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/models/args/projects/TaskId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/steps/LinkProjectApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/tests/CreateTaskTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/tests/DeleteTaskTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/tests/LinkProjectTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/tests/TaskDeleteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/models/args/projects/ProjectId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/models/args/projects/ProjectId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/tests/CreateUserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/tests/CreateUserTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/methods/Projects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/methods/Projects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/steps/ProjectApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/steps/ProjectApiSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/steps/TaskApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/steps/TaskApiSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/tests/DeleteProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/tests/DeleteProjectTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api/tests/DeleteUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/tests/DeleteUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/pageobjects/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/pageobjects/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/pageobjects/TaskPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/pageobjects/TaskPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/tests/End2EndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/tests/End2EndTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/tests/ProjectCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/tests/ProjectCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/tests/TaskCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/tests/TaskCreateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +90,8 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DeleteProjectTest.deleteProjectApi">
-    <configuration name="CreateProjectTests.createProjectApi" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TaskDeleteTest">
+    <configuration name="CreateTaskTests.createTaskApi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SokolovaYuliia" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +100,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="api.tests" />
-      <option name="MAIN_CLASS_NAME" value="api.tests.CreateProjectTests" />
-      <option name="METHOD_NAME" value="createProjectApi" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.CreateTaskTests" />
+      <option name="METHOD_NAME" value="createTaskApi" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateUserTests.createUserApi" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteTaskTests.deleteTaskApi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SokolovaYuliia" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +118,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="api.tests" />
-      <option name="MAIN_CLASS_NAME" value="api.tests.CreateUserTests" />
-      <option name="METHOD_NAME" value="createUserApi" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.DeleteTaskTests" />
+      <option name="METHOD_NAME" value="deleteTaskApi" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,43 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteProjectTest.deleteProjectApi" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SokolovaYuliia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.tests" />
-      <option name="MAIN_CLASS_NAME" value="api.tests.DeleteProjectTest" />
-      <option name="METHOD_NAME" value="deleteProjectApi" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteUserTest.deleteUserApi" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SokolovaYuliia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.tests" />
-      <option name="MAIN_CLASS_NAME" value="api.tests.DeleteUserTest" />
-      <option name="METHOD_NAME" value="deleteUserApi" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskCreateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskDeleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SokolovaYuliia" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +136,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ui.tests" />
-      <option name="MAIN_CLASS_NAME" value="ui.tests.TaskCreateTest" />
+      <option name="MAIN_CLASS_NAME" value="ui.tests.TaskDeleteTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskDeleteTest.taskCreateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SokolovaYuliia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="ui.tests.TaskDeleteTest" />
+      <option name="METHOD_NAME" value="taskCreateTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskDeleteTest.taskDeleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SokolovaYuliia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="ui.tests.TaskDeleteTest" />
+      <option name="METHOD_NAME" value="taskDeleteTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -173,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DeleteProjectTest.deleteProjectApi" />
-        <item itemvalue="TestNG.CreateProjectTests.createProjectApi" />
-        <item itemvalue="TestNG.DeleteUserTest.deleteUserApi" />
-        <item itemvalue="TestNG.CreateUserTests.createUserApi" />
-        <item itemvalue="TestNG.TaskCreateTest" />
+        <item itemvalue="TestNG.TaskDeleteTest" />
+        <item itemvalue="TestNG.TaskDeleteTest.taskDeleteTest" />
+        <item itemvalue="TestNG.TaskDeleteTest.taskCreateTest" />
+        <item itemvalue="TestNG.DeleteTaskTests.deleteTaskApi" />
+        <item itemvalue="TestNG.CreateTaskTests.createTaskApi" />
       </list>
     </recent_temporary>
   </component>
