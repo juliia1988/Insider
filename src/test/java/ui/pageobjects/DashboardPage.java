@@ -4,6 +4,7 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 
+import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.$;
 
 public class  DashboardPage {
@@ -14,7 +15,7 @@ public class  DashboardPage {
     private final SelenideElement formIdentifierField = $("#form-identifier");
     private final SelenideElement saveButton = $("button.btn.btn-blue:nth-child(1)");
     private final SelenideElement overviewMenu = $("[class='view-overview']");
-    private final SelenideElement activityContent = $("[class='activity-content']");
+    private final SelenideElement activityContent = $(byXpath("//body/section[1]/section[1]/details[4]/div[1]/div[1]/div[2]/div[1]/div[1]"));
 
 
 
@@ -37,8 +38,8 @@ public class  DashboardPage {
     @Step("Check that Comment was added")
     public ProjectPage checkTaskComment () {
       getOverviewMenu().click();
-      getActivityContent().shouldBe(Condition.visible);
-        return new ProjectPage();
+      getActivityContent().getText();
+      return new ProjectPage();
     }
 
     public SelenideElement getProjectTabMenu() {

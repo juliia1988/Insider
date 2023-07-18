@@ -19,7 +19,9 @@ public class BaseTest {
 
     @BeforeMethod
     public void setUp() {
-        Configuration.browser = "chrome";
+//        Configuration.browser = "chrome";
+        Configuration.headless = true;
+//        Configuration.browser = "firefox";
         Selenide.open("http://localhost/");
     }
 

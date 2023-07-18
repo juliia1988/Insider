@@ -5,8 +5,9 @@
         <classes>
             <class name="ui.tests.LoginSelenideTest"/>
             <class name="ui.tests.ProjectCreateTest"/>
-            <class name="ui.tests.End2EndTest"/>
-
+            <class name="ui.tests.TaskCreateTest"/>
+            <class name="ui.tests.TaskDeleteTest"/>
+            <class name="ui.tests.CommentAddTest"/>
         </classes>
 
     </test>

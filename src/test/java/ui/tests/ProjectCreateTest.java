@@ -13,7 +13,7 @@ import ui.pageobjects.LogInPage;
 
 public class ProjectCreateTest extends BaseTest {
 
-    private static final String USERNAME = "user8899";
+    private static final String USERNAME = "userThatCreateProject";
     private static final String PASSWORD = "myTestPassword";
 
     UserApiSteps userApiSteps = new UserApiSteps();

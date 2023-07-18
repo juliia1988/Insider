@@ -1,11 +1,8 @@
 package api.tests;
 
 import api.steps.ProjectApiSteps;
-import api.steps.UserApiSteps;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.util.Locale;
 
 public class CreateProjectTests {
 
