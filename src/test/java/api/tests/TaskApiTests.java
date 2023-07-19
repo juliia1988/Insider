@@ -25,6 +25,7 @@ public class TaskApiTests {
     }
 
     @Test
+    @Description("Check Task could not be created with empty title")
     public void createTaskApiNegative() {
         TaskApiSteps taskApiStep = new TaskApiSteps();
         taskApiStep.createTask("", 1);

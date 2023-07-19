@@ -18,6 +18,7 @@ public class ProjectApiTests {
         System.out.println("Project was created successfuly with id: " + projectId);
     }
     @Test
+    @Description("Check Project could be deleted")
 //    @AfterMethod(alwaysRun = true)
     public void removeProjectAfterTest() {
         ProjectApiSteps projectApiSteps = new ProjectApiSteps();
