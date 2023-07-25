@@ -83,15 +83,6 @@
             <version>1.18.28</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>com.codeborne</groupId>
-            <artifactId>selenide</artifactId>
-            <version>6.15.0</version>
-            <!--            <scope>provided</scope>-->
-            <scope>test</scope>
-        </dependency>
-
-
     </dependencies>
 
     <build>
