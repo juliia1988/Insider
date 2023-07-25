@@ -14,6 +14,7 @@ import org.testng.annotations.BeforeMethod;
 import java.io.File;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
+import static utils.EnvProperties.BASE_URL;
 
 public class BaseTest {
 
@@ -22,7 +23,7 @@ public class BaseTest {
 //        Configuration.browser = "chrome";
         Configuration.headless = true;
 //        Configuration.browser = "firefox";
-        Selenide.open("http://localhost/");
+        Selenide.open(BASE_URL);
     }
 
     @AfterMethod(alwaysRun = true)
