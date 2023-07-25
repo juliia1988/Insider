@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a01e3a9-94a3-46bd-9225-dd7f93e5c31c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/tests/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,24 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LinkProjectTests.linkProjectApiTestPositive">
+  <component name="RunManager" selected="TestNG.CommentAddTest">
+    <configuration name="CommentAddTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SokolovaYuliia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="ui.tests.CommentAddTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkProjectTests.linkProjectApiTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SokolovaYuliia" />
       <extension name="coverage">
@@ -104,24 +120,6 @@
       <option name="PACKAGE_NAME" value="api.tests" />
       <option name="MAIN_CLASS_NAME" value="api.tests.ProjectApiTests" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProjectApiTests.createProjectApiNegative" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SokolovaYuliia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.tests" />
-      <option name="MAIN_CLASS_NAME" value="api.tests.ProjectApiTests" />
-      <option name="METHOD_NAME" value="createProjectApiNegative" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -164,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CommentAddTest" />
         <item itemvalue="TestNG.LinkProjectTests.linkProjectApiTestPositive" />
         <item itemvalue="TestNG.TaskApiTests" />
         <item itemvalue="TestNG.UserApiTests" />
         <item itemvalue="TestNG.ProjectApiTests" />
-        <item itemvalue="TestNG.ProjectApiTests.createProjectApiNegative" />
       </list>
     </recent_temporary>
   </component>
