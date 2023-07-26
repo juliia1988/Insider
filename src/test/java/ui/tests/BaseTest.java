@@ -21,8 +21,8 @@ public class BaseTest {
     @BeforeMethod
     public void setUp() {
 //        Configuration.browser = "chrome";
-//        Configuration.headless = true;
-        Configuration.browser = "firefox";
+        Configuration.headless = true;
+//        Configuration.browser = "firefox";
         Selenide.open(BASE_URL);
     }
 
