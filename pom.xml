@@ -94,7 +94,9 @@
                 <configuration>
                     <suiteXmlFiles>
 <!--                        <suiteXmlFile>src/test/resources/regressionUI.xml</suiteXmlFile>-->
-                        <suiteXmlFile>src/test/resources/regressionAPI.xml</suiteXmlFile>
+<!--                        <suiteXmlFile>src/test/resources/regressionAPI.xml</suiteXmlFile>-->
+                        <suiteXmlFile>src/test/resources/{suite}.xml</suiteXmlFile>
+
                     </suiteXmlFiles>
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.19/aspectjweaver-1.9.19.jar"
