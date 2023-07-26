@@ -95,7 +95,7 @@
                     <suiteXmlFiles>
 <!--                        <suiteXmlFile>src/test/resources/regressionUI.xml</suiteXmlFile>-->
 <!--                        <suiteXmlFile>src/test/resources/regressionAPI.xml</suiteXmlFile>-->
-                        <suiteXmlFile>src/test/resources/{suite}.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/${suite}.xml</suiteXmlFile>
 
                     </suiteXmlFiles>
                     <argLine>
