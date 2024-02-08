@@ -4,7 +4,7 @@ import api.models.args.pet.PetId;
 import api.steps.BaseApiStep;
 import io.qameta.allure.Description;
 import io.restassured.response.Response;
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 

@@ -3,7 +3,8 @@ package api.tests;
 import api.models.args.pet.PetId;
 import api.steps.BaseApiStep;
 import io.qameta.allure.Description;
-import org.testng.annotations.Test;
+import org.junit.Test;
+
 
 public class GetPetByIdOrStatus extends BaseApiStep {
 
