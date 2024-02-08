@@ -4,7 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a01e3a9-94a3-46bd-9225-dd7f93e5c31c" name="Changes" comment="" />
+    <list default="true" id="7a01e3a9-94a3-46bd-9225-dd7f93e5c31c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/methods/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/models/args/pet/AddPetStoreBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/models/args/pet/AddPetToStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/models/args/pet/PetId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/steps/BaseApiStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/tests/AddNewPetToStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/tests/DeletePetById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/tests/GetPetByIdOrStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/tests/UpdateExistingPet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/pageobjects/CareerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/pageobjects/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/pageobjects/LevelApplicationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/pageobjects/OpenPositionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/pageobjects/QualityAssurancePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/tests/CareerPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/tests/HomePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/tests/OpenPositionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/tests/QualityAssurancePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/enums/UserRoles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/methods/Projects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/methods/Tasks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/methods/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/models/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/models/args/BodyArgs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/models/args/projects/CreateProject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/models/args/projects/CreateTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/models/args/projects/LinkProject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/models/args/projects/ProjectId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/models/args/projects/TaskId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/models/args/users/CreateUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/models/args/users/UserId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/steps/BaseApiSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/steps/LinkProjectApiSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/steps/ProjectApiSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/steps/TaskApiSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/steps/UserApiSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/tests/LinkProjectTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/tests/ProjectApiTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/tests/TaskApiTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/tests/UserApiTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/pageobjects/DashboardPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/pageobjects/LogInPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/pageobjects/ProjectPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/pageobjects/TaskPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/tests/CommentAddTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/tests/LoginSelenideTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/tests/ProjectCreateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/tests/TaskCreateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/tests/TaskDeleteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/EnvProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/env.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/regressionAPI.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/regressionAPI.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/regressionUI.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/regressionUI.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +110,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="api.steps" />
+      <recent name="ui.pageobjects" />
       <recent name="tests.api.steps" />
       <recent name="tests.ui.pageobjects" />
     </key>
@@ -68,11 +129,45 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean install" />
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CommentAddTest">
-    <configuration name="CommentAddTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.QualityAssurancePageTest">
+    <configuration name="GetPetByIdOrStatus.getPetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SokolovaYuliia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.models.args.pet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.tests" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.GetPetByIdOrStatus" />
+      <option name="METHOD_NAME" value="getPetById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetPetByIdOrStatus.getPetByStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SokolovaYuliia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.models.args.pet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.tests" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.GetPetByIdOrStatus" />
+      <option name="METHOD_NAME" value="getPetByStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CareerPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SokolovaYuliia" />
       <extension name="coverage">
         <pattern>
@@ -81,7 +176,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ui.tests" />
-      <option name="MAIN_CLASS_NAME" value="ui.tests.CommentAddTest" />
+      <option name="MAIN_CLASS_NAME" value="ui.tests.CareerPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -89,34 +184,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkProjectTests.linkProjectApiTestPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OpenPositionTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SokolovaYuliia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="api.tests.*" />
+          <option name="PATTERN" value="ui.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="api.tests" />
-      <option name="MAIN_CLASS_NAME" value="api.tests.LinkProjectTests" />
-      <option name="METHOD_NAME" value="linkProjectApiTestPositive" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProjectApiTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SokolovaYuliia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.tests" />
-      <option name="MAIN_CLASS_NAME" value="api.tests.ProjectApiTests" />
+      <option name="PACKAGE_NAME" value="ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="ui.tests.OpenPositionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -124,33 +201,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskApiTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="QualityAssurancePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SokolovaYuliia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="api.tests.*" />
+          <option name="PATTERN" value="ui.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="api.tests" />
-      <option name="MAIN_CLASS_NAME" value="api.tests.TaskApiTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserApiTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SokolovaYuliia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api.tests" />
-      <option name="MAIN_CLASS_NAME" value="api.tests.UserApiTests" />
+      <option name="PACKAGE_NAME" value="ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="ui.tests.QualityAssurancePageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -160,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CommentAddTest" />
-        <item itemvalue="TestNG.LinkProjectTests.linkProjectApiTestPositive" />
-        <item itemvalue="TestNG.TaskApiTests" />
-        <item itemvalue="TestNG.UserApiTests" />
-        <item itemvalue="TestNG.ProjectApiTests" />
+        <item itemvalue="TestNG.QualityAssurancePageTest" />
+        <item itemvalue="TestNG.OpenPositionTest" />
+        <item itemvalue="TestNG.CareerPageTest" />
+        <item itemvalue="JUnit.GetPetByIdOrStatus.getPetByStatus" />
+        <item itemvalue="JUnit.GetPetByIdOrStatus.getPetById" />
       </list>
     </recent_temporary>
   </component>
@@ -178,5 +238,12 @@
       <updated>1688547575750</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="api.models.args.pet.AddPetToStore" memberName="category" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

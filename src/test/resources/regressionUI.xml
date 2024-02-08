@@ -3,11 +3,10 @@
 
     <test name="Regression testing UI">
         <classes>
-            <class name="ui.tests.LoginSelenideTest"/>
-            <class name="ui.tests.ProjectCreateTest"/>
-            <class name="ui.tests.TaskCreateTest"/>
-            <class name="ui.tests.TaskDeleteTest"/>
-            <class name="ui.tests.CommentAddTest"/>
+            <class name="ui.tests.HomePageTest"/>
+            <class name="ui.tests.CareerPageTest"/>
+            <class name="ui.tests.QualityAssurancePageTest"/>
+            <class name="ui.tests.OpenPositionTest"/>
         </classes>
     </test>
 </suite>

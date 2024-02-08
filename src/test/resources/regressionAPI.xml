@@ -3,10 +3,10 @@
 
     <test name="Regression testing API">
         <classes>
-            <class name="api.tests.UserApiTests"/>
-            <class name="api.tests.ProjectApiTests"/>
-            <class name="api.tests.TaskApiTests"/>
-            <class name="api.tests.LinkProjectTests"/>
+            <class name="api.tests.AddNewPetToStore"/>
+            <class name="api.tests.UpdateExistingPet"/>
+            <class name="api.tests.DeletePetById"/>
+            <class name="api.tests.GetPetByIdOrStatus"/>
         </classes>
     </test>
 </suite>
